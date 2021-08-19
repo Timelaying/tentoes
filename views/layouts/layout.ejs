@@ -7,12 +7,10 @@
     <title>Myberry</title>
 </head>
 <body>
-    Before <!--before our code-->
-    <br>
+<%- include('../partials/header.ejs') %> <!--to import headers.ejs-->
+<%- include('../partials/errorMessage.ejs') %> 
+
     <!--contains all the stuffs insed our application-->
     <%- body %>
-
-    <br>
-    After <!--after our code-->
 </body>
 </html>
