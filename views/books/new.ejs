@@ -1,0 +1,6 @@
+<h2>New Book</h2>
+<form action="/books" method="POST" ><!--it is '/books because he have a '/' set to post-->
+    <%- include("_form_fields")%> 
+    <a href="/books">Cancel</a><!--we did not put it in a button, not to cause confusion-->
+    <button type="submit">Create</button>
+</form>
